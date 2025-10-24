@@ -1,0 +1,38 @@
+{
+  "name": "crtms-backend",
+  "version": "1.0.0",
+  "description": "Backend for CRTMS application",
+  "keywords": [
+    "\"Tracking",
+    "Management",
+    "System\""
+  ],
+  "homepage": "https://github.com/KenImade/crtms#readme",
+  "bugs": {
+    "url": "https://github.com/KenImade/crtms/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenImade/crtms.git"
+  },
+  "license": "ISC",
+  "author": "Kenneth Imade",
+  "type": "module",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "npx ts-node src/app.ts",
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.4",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "postgres": "^3.4.7",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.27"
+  }
+}

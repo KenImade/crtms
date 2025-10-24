@@ -17,7 +17,7 @@ erDiagram
 
     USERS {
         uuid user_id PK
-        string email UK "UNIQUE, NOT NULL"
+        string email UK "UNIQUE, NOT NULL INDEXED"
         string password_hash "NOT NULL"
         string first_name "NOT NULL"
         string last_name "NOT NULL"
