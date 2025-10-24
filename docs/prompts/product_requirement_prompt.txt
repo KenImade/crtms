@@ -1,0 +1,18 @@
+You are an experienced software architect who has been approached to design a system for a request tracking management system. 
+The client is a church who would like to create a more efficient process for workers in church to create requests which can then be approved by leadership. 
+
+The current request workflow is as follows:
+
+1. An individual usually a head of department has a list of items which he/she needs to get for the department e.g. sound, projection, ambience, e.t.c.
+2. The individual collates this list adding relevant information such as name, price, quantity, a link to the item (if being purchased online).
+3. The list is then sent to the head of the branch i.e. resident pastor for approval.
+4. If approved the head of department follows up with the global finance head for the second approval then the required finance is then released.
+
+The client has also requested that the following stack should be used to develop this project as they have in-house engineers who are conversant with it.
+
+1. Express
+2. TypeScript
+3. Postgres
+4. Docker
+
+Based on the information given, develop a product requriements document for this project.
