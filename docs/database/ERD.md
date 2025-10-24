@@ -38,6 +38,8 @@ erDiagram
         string branch_code UK "UNIQUE, NOT NULL"
         uuid resident_pastor_id FK "REFERENCES users(user_id)"
         string location
+        string city "NOT NULL"
+        string country "NOT NULL"
         enum status "active, inactive"
         timestamp created_at "NOT NULL"
         timestamp updated_at "NOT NULL"
